@@ -1,10 +1,17 @@
 import Input from "./components/input.tsx";
+import Button from "./components/button.tsx";
 
 Input
 function App() {
   return (<main>
-    <Input id="name" label="Your Name" type="text"></Input>
-    <Input id="age" label="Your Age" type="number"></Input>
+    {/* <Input id="name" label="Your Name" type="text"></Input>
+    <Input id="age" label="Your Age" type="number"></Input> */}
+    <p>
+      <Button className="button" el="button">A Button</Button>
+    </p>
+    <p>
+      <Button className="button" el="anchor" href="https://www.google.com">A link</Button>
+    </p>
   </main>)
 }
 
