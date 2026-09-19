@@ -12,7 +12,7 @@ function App() {
     <p>
       <Button href="https://www.google.com">A link</Button>
     </p> */}
-    <Container as={Button}></Container>
+    <Container as={Button} onClick={() => {}}>Click me</Container>
   </main>)
 }
 
