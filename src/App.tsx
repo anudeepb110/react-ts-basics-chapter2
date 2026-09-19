@@ -1,17 +1,18 @@
 import Input from "./components/input.tsx";
 import Button from "./components/button.tsx";
+import Container from "./components/container.tsx";
 
-Input
 function App() {
   return (<main>
     {/* <Input id="name" label="Your Name" type="text"></Input>
     <Input id="age" label="Your Age" type="number"></Input> */}
-    <p>
+    {/* <p>
       <Button>A Button</Button>
     </p>
     <p>
       <Button href="https://www.google.com">A link</Button>
-    </p>
+    </p> */}
+    <Container as={Button}></Container>
   </main>)
 }
 
